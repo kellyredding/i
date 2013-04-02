@@ -6,11 +6,11 @@ require "i/version"
 Gem::Specification.new do |gem|
   gem.name        = "i"
   gem.version     = I::VERSION
-  gem.authors     = ["TODO: authors"]
-  gem.email       = ["TODO: emails"]
-  gem.description = %q{TODO: Write a gem description}
-  gem.summary     = %q{TODO: Write a gem summary}
-  gem.homepage    = "http://github.com/__/i"
+  gem.authors     = ["Kelly Redding"]
+  gem.email       = ["kelly.redding@reelfx.com"]
+  gem.description = %q{}
+  gem.summary     = %q{}
+  gem.homepage    = "http://github.com/kellyredding/i"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -18,6 +18,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency("assert")
-  # TODO: gem.add_dependency("gem-name", ["~> 0.0"])
 
 end

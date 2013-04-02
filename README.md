@@ -1,10 +1,6 @@
 # I
 
-TODO: Write a gem description
-
 ## Usage
-
-TODO: Write code samples and usage instructions here
 
 ## Installation
 
